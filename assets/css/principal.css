@@ -1,0 +1,19 @@
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.contenedor-imagen {
+    margin: 50px;
+}
+main {
+    background-color: #f3f7fb;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ffffff;
+    
+}

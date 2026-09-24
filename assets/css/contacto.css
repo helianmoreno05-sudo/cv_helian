@@ -1,0 +1,13 @@
+.campo-formmulario {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+.tarjeta-contacto{
+    background-color: #d3e7f1;
+  border-radius: 12px;
+  border-color: #010319;
+}
+.barra-contacto{
+  background-color: #0f68b6;
+}

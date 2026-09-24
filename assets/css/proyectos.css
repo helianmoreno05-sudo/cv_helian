@@ -1,0 +1,8 @@
+.carousel-item img {
+  max-height: 400px;
+  object-fit: contain;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}

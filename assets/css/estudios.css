@@ -1,0 +1,53 @@
+
+:root {
+    --verde-principal: #07d412;
+    --verde-claro: #a5d6a7;
+    --gris-fondo: #f8f9fa;
+}
+
+/* Carrusel */
+.carousel-img {
+    height: 500px;
+    object-fit: contain;
+    background-color: var(--gris-fondo);
+   
+}
+
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 300px;
+    }
+}
+
+/* Tarjetas de estudios */
+.card {
+    border: currentColor;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease ;
+}
+
+
+
+.card h2 {
+    color: var(--verde-principal);
+    font-size: 1.4rem;
+}
+
+
+
+/* Acordeón */
+.accordion-button:not(.collapsed) {
+    background-color: var(--verde-claro);
+    color: #08532f;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: var(--verde-principal);
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
